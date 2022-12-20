@@ -39,7 +39,7 @@ scoreRouter.get("/getrendom",async(req,res)=>{
    
 })
 
-scoreRouter.post("/addjob",async(req,res)=>{
+scoreRouter.post("/adduser",async(req,res)=>{
     const {name,level,score}=req.body
     
     const new_score= new ScoreModel({
